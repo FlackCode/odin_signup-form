@@ -1,3 +1,7 @@
+:root{
+    --color: #62784F;
+    --color2: #E5E7EB;
+}
 @font-face {
     font-family: myFont;
     src: url('Norse-Bold.otf');
@@ -140,4 +144,25 @@ input:focus{
     outline: none;
     border-color: #62784F !important;
     box-shadow: 0.25rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
+}
+#password{
+    outline: none;
+    border-color: var(--color2);
+}
+#password:focus{
+    outline: none;
+    border-color: var(--color1);
+}
+#cPassword{
+    outline: none;
+    border-color: var(--color2);
+}
+#cPassword:hover{
+    outline: none;
+    border-color: var(--color1);
+}
+#nomatch{
+    color: red;
+    font-weight: bold;
+    font-size: 0.6rem;
 }
